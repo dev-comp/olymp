@@ -58,7 +58,7 @@ public class Task01 {
     }
     Collections.sort(arrivalTimes);
 
-    List<String> leadersList = new ArrayList<String>();
+    List<String> leadersList = new ArrayList<>();
     Long leaderTime = arrivalTimeMap.get(arrivalTimes.get(0)).timeOnTrack;
     leadersList.add(arrivalTimeMap.get(arrivalTimes.get(0)).name);
 
